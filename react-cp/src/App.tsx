@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import ChipsInput from "./features/chips-input/components/ChipsInput";
 import LightDark from "./features/light-dark/components/LightDark";
+import ToggleComponent from "./features/toggle-custom-hook/components/ToggleComponent";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -11,7 +12,8 @@ function App() {
   return (
     <div>
       {/* <ChipsInput></ChipsInput> */}
-      <LightDark></LightDark>
+      {/* <LightDark></LightDark> */}
+      {<ToggleComponent />}
     </div>
   );
 }
