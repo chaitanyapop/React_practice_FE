@@ -1,0 +1,72 @@
+[
+  {
+    "image": "assets/dish_image.jpg",
+    "dishName": "Vegetable stir fry",
+    "cuisine": "Asian",
+    "rating": 4.5,
+    "reviews": 20
+  },
+  {
+    "image": "assets/dish_image.jpg",
+    "dishName": "Bhindi fry",
+    "cuisine": "Indian",
+    "rating": 4.2,
+    "reviews": 30
+  },
+  {
+    "image": "assets/dish_image.jpg",
+    "dishName": "Paneer Biryani",
+    "cuisine": "Asian",
+    "rating": 4.7,
+    "reviews": 40
+  },
+  {
+    "image": "assets/dish_image.jpg",
+    "dishName": "Pasta",
+    "cuisine": "Europe",
+    "rating": 4.2,
+    "reviews": 10
+  },
+  {
+    "image": "assets/dish_image.jpg",
+    "dishName": "Noodles",
+    "cuisine": "Chinese",
+    "rating": 4.8,
+    "reviews": 90
+  },
+  {
+    "image": "assets/dish_image.jpg",
+    "dishName": "Fried rice",
+    "cuisine": "Chinese",
+    "rating": 4.5,
+    "reviews": 100
+  },
+  {
+    "image": "assets/dish_image.jpg",
+    "dishName": "Panner chilly",
+    "cuisine": "Chinese",
+    "rating": 4.2,
+    "reviews": 220
+  },
+  {
+    "image": "assets/dish_image.jpg",
+    "dishName": "Pizza",
+    "cuisine": "Italian",
+    "rating": 4.7,
+    "reviews": 90
+  },
+  {
+    "image": "assets/dish_image.jpg",
+    "dishName": "Burger",
+    "cuisine": "American",
+    "rating": 4.7,
+    "reviews": 70
+  },
+  {
+    "image": "assets/dish_image.jpg",
+    "dishName": "Salad",
+    "cuisine": "Indian",
+    "rating": 4.5,
+    "reviews": 60
+  }
+]
