@@ -5,34 +5,31 @@ function EvenOdd() {
   let [result, setResult] = useState("");
   let [processFlag, setProcessFlag] = useState(false);
   let [flag, setFlag] = useState(true);
+  let message: string;
   function putValue(e: any) {
     setNumber(e.target.value);
     setFlag(false);
   }
   function checkEvenOdd() {
+    setProcessFlag(true);
     setResult("");
     let value = number.trim();
-    if (value.trim() === "" || isNaN(Number(value)) == true) {
-      setProcessFlag(true);
-      setTimeout(() => {
-        setProcessFlag(false);
-        setResult("Enter valid number");
-      }, 4000);
+    if (value === "" || isNaN(Number(value)) == true) {
+      message = "Enter valid number";
     } else {
       if (Number(value) % 2 == 0) {
         setProcessFlag(true);
-        setTimeout(() => {
-          setProcessFlag(false);
-          setResult("Number is Even");
-        }, 4000);
+        message = "Number is Even";
       } else {
         setProcessFlag(true);
-        setTimeout(() => {
-          setProcessFlag(false);
-          setResult("Number is Odd");
-        }, 4000);
+        message = "Number is Odd";
       }
     }
+
+    setTimeout(() => {
+      setProcessFlag(false);
+      setResult(message);
+    }, 4000);
   }
   return (
     <div>
