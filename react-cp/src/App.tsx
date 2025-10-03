@@ -7,6 +7,7 @@ import LightDark from "./features/light-dark/components/LightDark";
 import ToggleComponent from "./features/toggle-custom-hook/components/ToggleComponent";
 import RecipeMain from "./features/Recipe/Recipe-main";
 import EvenOdd from "./features/even-odd-check/EventOdd";
+import ColorExpo from "./features/color-explorer/ColorExpo";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -17,7 +18,8 @@ function App() {
       {/* <LightDark></LightDark> */}
       {/* {<ToggleComponent />} */}
       {/* <RecipeMain /> */}
-      <EvenOdd />
+      {/* <EvenOdd /> */}
+      <ColorExpo />
     </div>
   );
 }
