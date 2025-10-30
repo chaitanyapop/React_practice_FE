@@ -8,6 +8,7 @@ import ToggleComponent from "./features/toggle-custom-hook/components/ToggleComp
 import RecipeMain from "./features/Recipe/Recipe-main";
 import EvenOdd from "./features/even-odd-check/EventOdd";
 import ColorExpo from "./features/color-explorer/ColorExpo";
+import CharacterCount from "./features/Character-counter/CharacterCount";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -19,7 +20,8 @@ function App() {
       {/* {<ToggleComponent />} */}
       {/* <RecipeMain /> */}
       {/* <EvenOdd /> */}
-      <ColorExpo />
+      {/* <ColorExpo /> */}
+      <CharacterCount />
     </div>
   );
 }
