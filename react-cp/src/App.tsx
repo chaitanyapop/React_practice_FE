@@ -9,6 +9,7 @@ import RecipeMain from "./features/Recipe/Recipe-main";
 import EvenOdd from "./features/even-odd-check/EventOdd";
 import ColorExpo from "./features/color-explorer/ColorExpo";
 import CharacterCount from "./features/Character-counter/CharacterCount";
+import CopyClipboard from "./features/Copy-clipboard/CopyClipboard";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -21,7 +22,8 @@ function App() {
       {/* <RecipeMain /> */}
       {/* <EvenOdd /> */}
       {/* <ColorExpo /> */}
-      <CharacterCount />
+      {/* <CharacterCount /> */}
+      <CopyClipboard />
     </div>
   );
 }
