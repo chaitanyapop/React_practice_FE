@@ -10,6 +10,7 @@ import EvenOdd from "./features/even-odd-check/EventOdd";
 import ColorExpo from "./features/color-explorer/ColorExpo";
 import CharacterCount from "./features/Character-counter/CharacterCount";
 import CopyClipboard from "./features/Copy-clipboard/CopyClipboard";
+import TabSwitch from "./features/Tab-switcher/TabSwitch";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -23,7 +24,8 @@ function App() {
       {/* <EvenOdd /> */}
       {/* <ColorExpo /> */}
       {/* <CharacterCount /> */}
-      <CopyClipboard />
+      {/* <CopyClipboard /> */}
+      <TabSwitch />
     </div>
   );
 }

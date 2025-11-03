@@ -1,0 +1,26 @@
+.tab {
+  background-color: lightgray;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.tab.active {
+  background-color: skyblue;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.tab-switch-container {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid red;
+  align-items: center;
+}
+
+.tab-list {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
