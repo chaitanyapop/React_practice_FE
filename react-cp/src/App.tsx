@@ -11,6 +11,7 @@ import ColorExpo from "./features/color-explorer/ColorExpo";
 import CharacterCount from "./features/Character-counter/CharacterCount";
 import CopyClipboard from "./features/Copy-clipboard/CopyClipboard";
 import TabSwitch from "./features/Tab-switcher/TabSwitch";
+import PrevShow from "./features/Previous-value/PrevShow";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -25,7 +26,8 @@ function App() {
       {/* <ColorExpo /> */}
       {/* <CharacterCount /> */}
       {/* <CopyClipboard /> */}
-      <TabSwitch />
+      {/* <TabSwitch /> */}
+      <PrevShow />
     </div>
   );
 }
