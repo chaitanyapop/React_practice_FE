@@ -12,6 +12,7 @@ import CharacterCount from "./features/Character-counter/CharacterCount";
 import CopyClipboard from "./features/Copy-clipboard/CopyClipboard";
 import TabSwitch from "./features/Tab-switcher/TabSwitch";
 import PrevShow from "./features/Previous-value/PrevShow";
+import GreetTimer from "./features/Greetings/GreetTimer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -27,7 +28,8 @@ function App() {
       {/* <CharacterCount /> */}
       {/* <CopyClipboard /> */}
       {/* <TabSwitch /> */}
-      <PrevShow />
+      {/* <PrevShow /> */}
+      <GreetTimer />
     </div>
   );
 }
