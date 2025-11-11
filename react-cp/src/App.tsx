@@ -13,6 +13,7 @@ import CopyClipboard from "./features/Copy-clipboard/CopyClipboard";
 import TabSwitch from "./features/Tab-switcher/TabSwitch";
 import PrevShow from "./features/Previous-value/PrevShow";
 import GreetTimer from "./features/Greetings/GreetTimer";
+import ProgressBar from "./features/progress-bar/ProgressBar";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -29,7 +30,8 @@ function App() {
       {/* <CopyClipboard /> */}
       {/* <TabSwitch /> */}
       {/* <PrevShow /> */}
-      <GreetTimer />
+      {/* <GreetTimer /> */}
+      <ProgressBar />
     </div>
   );
 }
