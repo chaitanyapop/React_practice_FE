@@ -14,6 +14,7 @@ import TabSwitch from "./features/Tab-switcher/TabSwitch";
 import PrevShow from "./features/Previous-value/PrevShow";
 import GreetTimer from "./features/Greetings/GreetTimer";
 import ProgressBar from "./features/progress-bar/ProgressBar";
+import BackToTop from "./features/Back-to-top/BackToTop";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -31,7 +32,8 @@ function App() {
       {/* <TabSwitch /> */}
       {/* <PrevShow /> */}
       {/* <GreetTimer /> */}
-      <ProgressBar />
+      {/* <ProgressBar /> */}
+      <BackToTop />
     </div>
   );
 }
