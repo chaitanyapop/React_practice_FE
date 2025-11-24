@@ -15,6 +15,7 @@ import PrevShow from "./features/Previous-value/PrevShow";
 import GreetTimer from "./features/Greetings/GreetTimer";
 import ProgressBar from "./features/progress-bar/ProgressBar";
 import BackToTop from "./features/Back-to-top/BackToTop";
+import AstricValidation from "./features/Astric-validation/AstricValidation";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -33,7 +34,8 @@ function App() {
       {/* <PrevShow /> */}
       {/* <GreetTimer /> */}
       {/* <ProgressBar /> */}
-      <BackToTop />
+      {/* <BackToTop /> */}
+      <AstricValidation />
     </div>
   );
 }
