@@ -16,6 +16,7 @@ import GreetTimer from "./features/Greetings/GreetTimer";
 import ProgressBar from "./features/progress-bar/ProgressBar";
 import BackToTop from "./features/Back-to-top/BackToTop";
 import AstricValidation from "./features/Astric-validation/AstricValidation";
+import FrequentlyAsked from "./features/frequently-asked-ques/FrequentlyAsked";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -35,7 +36,8 @@ function App() {
       {/* <GreetTimer /> */}
       {/* <ProgressBar /> */}
       {/* <BackToTop /> */}
-      <AstricValidation />
+      {/* <AstricValidation /> */}
+      <FrequentlyAsked />
     </div>
   );
 }
