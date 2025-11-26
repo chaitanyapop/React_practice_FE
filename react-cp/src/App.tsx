@@ -17,6 +17,7 @@ import ProgressBar from "./features/progress-bar/ProgressBar";
 import BackToTop from "./features/Back-to-top/BackToTop";
 import AstricValidation from "./features/Astric-validation/AstricValidation";
 import FrequentlyAsked from "./features/frequently-asked-ques/FrequentlyAsked";
+import Sidebar from "./features/Sidebar/Sidebar";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -37,7 +38,8 @@ function App() {
       {/* <ProgressBar /> */}
       {/* <BackToTop /> */}
       {/* <AstricValidation /> */}
-      <FrequentlyAsked />
+      {/* <FrequentlyAsked /> */}
+      <Sidebar />
     </div>
   );
 }
