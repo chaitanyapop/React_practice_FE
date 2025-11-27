@@ -1,0 +1,39 @@
+.signal-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 20px);
+}
+.traffic-signal-outline {
+  border: 2px solid black;
+  width: 5%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 30px;
+  background-color: black;
+  border-radius: 20px;
+}
+
+.traffic-signal-circle {
+  flex: 1;
+  border-radius: 100%;
+  background-color: rgb(39, 38, 38);
+}
+
+.green-signal {
+  background-color: rgb(4, 236, 4);
+  box-shadow: 0 0 20px 10px rgba(78, 236, 5, 0.7);
+}
+
+.red-signal {
+  background-color: red;
+  box-shadow: 0 0 20px 10px rgba(255, 0, 0, 0.7);
+}
+
+.yellow-signal {
+  background-color: yellow;
+  box-shadow: 0 0 20px 10px rgba(237, 237, 4, 0.7);
+}

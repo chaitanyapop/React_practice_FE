@@ -18,6 +18,7 @@ import BackToTop from "./features/Back-to-top/BackToTop";
 import AstricValidation from "./features/Astric-validation/AstricValidation";
 import FrequentlyAsked from "./features/frequently-asked-ques/FrequentlyAsked";
 import Sidebar from "./features/Sidebar/Sidebar";
+import TrafficLight from "./features/Traffic-light-med/TrafficLight";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -39,7 +40,9 @@ function App() {
       {/* <BackToTop /> */}
       {/* <AstricValidation /> */}
       {/* <FrequentlyAsked /> */}
-      <Sidebar />
+      {/* <Sidebar /> */}
+      {/*.......................Medium problems.................. */}
+      <TrafficLight />
     </div>
   );
 }
