@@ -1,0 +1,11 @@
+.button {
+  background-color: rgb(123, 119, 208);
+  border-radius: 5px;
+  color: white;
+  border: none;
+  transition: transform 0.5s ease;
+}
+.button:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
