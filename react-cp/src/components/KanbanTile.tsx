@@ -40,7 +40,35 @@ function KanbanTile(props: any) {
       }
     });
   }
-  function clickDelete() {}
+  function clickDelete() {
+    props.setTaskState((prev: any) => {
+      if (prev.todo.some((item: any) => item.id == props.value.id)) {
+        return {
+          todo: prev.todo.filter((value: any) => value.id != props.value.id),
+          inProgress: [...prev.inProgress],
+          completed: [...prev.completed],
+        };
+      } else if (
+        prev.inProgress.some((item: any) => item.id == props.value.id)
+      ) {
+        return {
+          todo: [...prev.todo],
+          inProgress: prev.inProgress.filter(
+            (value: any) => value.id != props.value.id
+          ),
+          completed: [...prev.completed],
+        };
+      } else {
+        return {
+          todo: [...prev.todo],
+          inProgress: [...prev.inProgress],
+          completed: prev.completed.filter(
+            (value: any) => value.id != props.value.id
+          ),
+        };
+      }
+    });
+  }
   return (
     <div className="tile-container">
       <div className="tile-header">
