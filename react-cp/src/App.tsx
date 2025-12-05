@@ -20,6 +20,7 @@ import FrequentlyAsked from "./features/frequently-asked-ques/FrequentlyAsked";
 import Sidebar from "./features/Sidebar/Sidebar";
 import TrafficLight from "./features/Traffic-light-med/TrafficLight";
 import Kanban from "./features/Kanban-board/Kanban";
+import WordCounter from "./features/Word-counter/WordCounter";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -44,7 +45,8 @@ function App() {
       {/* <Sidebar /> */}
       {/*.......................Medium problems.................. */}
       {/* <TrafficLight /> */}
-      <Kanban />
+      {/* <Kanban /> */}
+      <WordCounter />
     </div>
   );
 }
