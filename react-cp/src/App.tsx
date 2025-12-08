@@ -21,6 +21,7 @@ import Sidebar from "./features/Sidebar/Sidebar";
 import TrafficLight from "./features/Traffic-light-med/TrafficLight";
 import Kanban from "./features/Kanban-board/Kanban";
 import WordCounter from "./features/Word-counter/WordCounter";
+import JsonValidator from "./features/Json-validator/JsonValidator";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -46,7 +47,8 @@ function App() {
       {/*.......................Medium problems.................. */}
       {/* <TrafficLight /> */}
       {/* <Kanban /> */}
-      <WordCounter />
+      {/* <WordCounter /> */}
+      <JsonValidator />
     </div>
   );
 }
