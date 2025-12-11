@@ -6,6 +6,7 @@ function CinemaHall() {
   let [seatData, setSeatData] = useState<any>([]);
   let [error, setError] = useState("");
   let [selectedRow, setSelectedRow] = useState<any>([]);
+  let [mouseDown, setMouseDown] = useState(false);
   useEffect(() => {
     async function getSeatData() {
       try {
@@ -94,9 +95,19 @@ function CinemaHall() {
                           : ""
                       }`}
                       key={i}
-                      onClick={() =>
-                        selectSeat(rowName?.rowId, rowSeats.seatId)
-                      }
+                      //   onClick={() =>
+                      //     selectSeat(rowName?.rowId, rowSeats.seatId)
+                      //   }
+                      onMouseDown={() => {
+                        setMouseDown(true);
+                        selectSeat(rowName?.rowId, rowSeats.seatId);
+                      }}
+                      onMouseEnter={() => {
+                        mouseDown
+                          ? selectSeat(rowName?.rowId, rowSeats.seatId)
+                          : "";
+                      }}
+                      onMouseUp={() => setMouseDown(false)}
                     >
                       {rowSeats.seatId}
                     </span>
