@@ -55,3 +55,20 @@ function TrafficLight() {
   );
 }
 export default TrafficLight;
+
+//   useEffect(() => {
+//     const timer = setTimeout(() => {
+//       let currentIndex = signal.indexOf(currentSignal);
+//       let nextSignal = signal[(currentIndex + 1) % signal.length];
+//       setCurrentSignal(nextSignal);
+//     }, signalTimer[currentSignal]);
+
+//     return () => {
+//       clearTimeout(timer);
+//     };
+//   }, [currentSignal]);
+
+// Working->
+// 1) useEffect runs of first render and if there is a change in dependency value then useEffect will execute
+// 2) On first render, timeout will be set, after few seconds callback will execute and it will setCurrentSignal value to the new signal
+// 3) Now there is a change in dependency array value therefore cleanup will execute first and it will remove old timer and it will again execute the useEffect and it will set the new timer with new currentSignal value

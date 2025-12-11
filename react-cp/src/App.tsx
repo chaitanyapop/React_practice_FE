@@ -22,6 +22,7 @@ import TrafficLight from "./features/Traffic-light-med/TrafficLight";
 import Kanban from "./features/Kanban-board/Kanban";
 import WordCounter from "./features/Word-counter/WordCounter";
 import JsonValidator from "./features/Json-validator/JsonValidator";
+import CinemaHall from "./features/Cinema-hall/CinemaHall";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -45,10 +46,11 @@ function App() {
       {/* <FrequentlyAsked /> */}
       {/* <Sidebar /> */}
       {/*.......................Medium problems.................. */}
-      {/* <TrafficLight /> */}
-      {/* <Kanban /> */}
-      {/* <WordCounter /> */}
-      <JsonValidator />
+      {/* <TrafficLight />
+      <Kanban />
+      <WordCounter />
+      <JsonValidator /> */}
+      <CinemaHall />
     </div>
   );
 }
