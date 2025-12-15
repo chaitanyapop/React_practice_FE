@@ -23,6 +23,7 @@ import Kanban from "./features/Kanban-board/Kanban";
 import WordCounter from "./features/Word-counter/WordCounter";
 import JsonValidator from "./features/Json-validator/JsonValidator";
 import CinemaHall from "./features/Cinema-hall/CinemaHall";
+import MarkDown from "./features/Markdown-editor/MarkDown";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -50,7 +51,8 @@ function App() {
       <Kanban />
       <WordCounter />
       <JsonValidator /> */}
-      <CinemaHall />
+      {/* <CinemaHall /> */}
+      <MarkDown />
     </div>
   );
 }

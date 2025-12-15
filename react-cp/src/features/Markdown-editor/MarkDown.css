@@ -1,0 +1,32 @@
+.markdown-container {
+  display: flex;
+  gap: 20px;
+  height: 100vh;
+}
+.markdown-input-side {
+  flex: 1;
+  background-color: white;
+  border-radius: 5px;
+}
+.markdown-live-preview {
+  flex: 1;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.tab-header {
+  margin: 10px;
+  border-bottom: 1px solid grey;
+  padding-bottom: 20px;
+}
+.user-input {
+  width: calc(100% - 25px);
+  height: calc(100% - 100px);
+  margin: 10px;
+}
+
+@media (max-width: 768px) {
+  .markdown-container {
+    flex-direction: column;
+  }
+}
