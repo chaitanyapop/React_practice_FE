@@ -68,7 +68,10 @@ function CinemaHall() {
     });
   }
   return (
-    <div className="cinema-hall-container">
+    <div
+      className="cinema-hall-container"
+      onMouseUp={() => setMouseDown(false)}
+    >
       <h2>Cinema Hall</h2>
       <div className="buttons-container">
         <button className="button" onClick={bookSeat}>
