@@ -25,6 +25,7 @@ import JsonValidator from "./features/Json-validator/JsonValidator";
 import CinemaHall from "./features/Cinema-hall/CinemaHall";
 import MarkDown from "./features/Markdown-editor/MarkDown";
 import AutoSave from "./features/Auto-save-form/AutoSave";
+import ImageComponent from "./features/Image-gallary/ImageComponent";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -54,7 +55,8 @@ function App() {
       <JsonValidator /> */}
       {/* <CinemaHall /> */}
       {/* <MarkDown /> */}
-      <AutoSave />
+      {/* <AutoSave /> */}
+      <ImageComponent />
     </div>
   );
 }
