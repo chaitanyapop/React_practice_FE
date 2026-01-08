@@ -37,10 +37,12 @@ function TosterReusable(props: any) {
     <div>
       {visible && (
         <div className="toster-block" style={{ backgroundColor: color }}>
+          {" "}
+          {/*style={{ backgroundColor: color }}
+        first curly bracses tells I want to add some JS logic. second curly braces tells I want to add some css properties */}
           <div className="message-block">
             <span>{message}</span>
           </div>
-
           <div className="progress-bar" style={{ width: `${width}%` }}></div>
         </div>
       )}

@@ -35,6 +35,13 @@ function TrafficLight() {
               ? "traffic-signal-circle red-signal"
               : "traffic-signal-circle"
           }`}
+          /*className={`${
+            currentSignal == "red"
+              ? "traffic-signal-circle red-signal"
+              : "traffic-signal-circle"
+          }`}
+        first curly bracses tells I want to add some JS logic. second curly braces are inside string interpolation. In first 
+        curely brace we can add JS logic */
         ></div>
         <div
           className={`${
