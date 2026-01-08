@@ -1,0 +1,16 @@
+.toster-block {
+  width: 20%;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  border-radius: 5px;
+}
+.progress-bar {
+  background: rgba(255, 255, 255, 0.9);
+  height: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.message-block {
+  padding: 10px;
+}
