@@ -27,6 +27,7 @@ import MarkDown from "./features/Markdown-editor/MarkDown";
 import AutoSave from "./features/Auto-save-form/AutoSave";
 import ImageComponent from "./features/Image-gallary/ImageComponent";
 import Tostermsg from "./features/Toster/Tostermsg";
+import QuizApp from "./features/Quiz-app/QuizApp";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -58,7 +59,8 @@ function App() {
       {/* <MarkDown /> */}
       {/* <AutoSave /> */}
       {/* <ImageComponent /> */}
-      <Tostermsg />
+      {/* <Tostermsg /> */}
+      <QuizApp />
     </div>
   );
 }
