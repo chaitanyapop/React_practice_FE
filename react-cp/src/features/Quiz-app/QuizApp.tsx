@@ -40,7 +40,6 @@ function QuizApp() {
           displayScore == false && (
             <div className="question-container">
               <h3>Question {currentIndex + 1}</h3>
-              <p>{currentQuestion?.question}</p>
               {currentQuestion.options.map((data: any, i: any) => {
                 return (
                   <span>

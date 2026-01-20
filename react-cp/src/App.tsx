@@ -28,6 +28,7 @@ import AutoSave from "./features/Auto-save-form/AutoSave";
 import ImageComponent from "./features/Image-gallary/ImageComponent";
 import Tostermsg from "./features/Toster/Tostermsg";
 import QuizApp from "./features/Quiz-app/QuizApp";
+import Sortable from "./features/Sortable-list/Sortable";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -60,7 +61,8 @@ function App() {
       {/* <AutoSave /> */}
       {/* <ImageComponent /> */}
       {/* <Tostermsg /> */}
-      <QuizApp />
+      {/* <QuizApp /> */}
+      <Sortable />
     </div>
   );
 }
