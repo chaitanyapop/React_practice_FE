@@ -71,6 +71,7 @@ function SocialShare() {
         <input type="text" value={pageUrl} onChange={addUrl} />
         <button
           onClick={() => {
+            navigator.clipboard.writeText(pageUrl);
             setToster(true);
           }}
         >
