@@ -29,6 +29,7 @@ import ImageComponent from "./features/Image-gallary/ImageComponent";
 import Tostermsg from "./features/Toster/Tostermsg";
 import QuizApp from "./features/Quiz-app/QuizApp";
 import Sortable from "./features/Sortable-list/Sortable";
+import SocialShare from "./features/Social-share/SocialShare";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -62,7 +63,8 @@ function App() {
       {/* <ImageComponent /> */}
       {/* <Tostermsg /> */}
       {/* <QuizApp /> */}
-      <Sortable />
+      {/* <Sortable /> */}
+      <SocialShare />
     </div>
   );
 }
