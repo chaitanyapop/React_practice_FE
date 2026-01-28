@@ -1,0 +1,16 @@
+.todo-block-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  border: 2px solid grey;
+}
+
+.block-header {
+  margin: 0px;
+}
+
+.todo-block-buttons {
+  display: flex;
+  gap: 5px;
+}

@@ -30,6 +30,7 @@ import Tostermsg from "./features/Toster/Tostermsg";
 import QuizApp from "./features/Quiz-app/QuizApp";
 import Sortable from "./features/Sortable-list/Sortable";
 import SocialShare from "./features/Social-share/SocialShare";
+import TodoPage from "./features/Todo-timer/TodoPage";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -64,7 +65,8 @@ function App() {
       {/* <Tostermsg /> */}
       {/* <QuizApp /> */}
       {/* <Sortable /> */}
-      <SocialShare />
+      {/* <SocialShare /> */}
+      <TodoPage />
     </div>
   );
 }
