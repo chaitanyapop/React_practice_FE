@@ -1,0 +1,140 @@
+[
+  {
+    "id": 1,
+    "title": "Understanding JavaScript Closures",
+    "description": "A deep dive into closures and how they enable powerful patterns in JavaScript.",
+    "isBookmarked": false
+  },
+  {
+    "id": 2,
+    "title": "React Hooks Explained",
+    "description": "Learn how React hooks simplify state management and side effects in functional components.",
+    "isBookmarked": true
+  },
+  {
+    "id": 3,
+    "title": "Mastering CSS Flexbox",
+    "description": "A practical guide to building responsive layouts using Flexbox.",
+    "isBookmarked": false
+  },
+  {
+    "id": 4,
+    "title": "Getting Started with TypeScript",
+    "description": "An introduction to TypeScript and why it improves JavaScript development.",
+    "isBookmarked": false
+  },
+  {
+    "id": 5,
+    "title": "Async JavaScript Patterns",
+    "description": "Promises, async/await, and best practices for handling asynchronous code.",
+    "isBookmarked": true
+  },
+  {
+    "id": 6,
+    "title": "Building REST APIs with Node.js",
+    "description": "Step-by-step guide to creating scalable REST APIs using Node and Express.",
+    "isBookmarked": false
+  },
+  {
+    "id": 7,
+    "title": "Understanding Event Loop",
+    "description": "How the JavaScript event loop works behind the scenes.",
+    "isBookmarked": false
+  },
+  {
+    "id": 8,
+    "title": "State Management in React",
+    "description": "Comparing useState, useReducer, Context API, and Redux.",
+    "isBookmarked": true
+  },
+  {
+    "id": 9,
+    "title": "Web Performance Optimization",
+    "description": "Techniques to improve website loading speed and performance.",
+    "isBookmarked": false
+  },
+  {
+    "id": 10,
+    "title": "Introduction to Next.js",
+    "description": "Learn how Next.js enables server-side rendering and static site generation.",
+    "isBookmarked": false
+  },
+  {
+    "id": 11,
+    "title": "Handling Forms in React",
+    "description": "Controlled vs uncontrolled components and form validation strategies.",
+    "isBookmarked": false
+  },
+  {
+    "id": 12,
+    "title": "JavaScript Array Methods",
+    "description": "A practical overview of map, filter, reduce, and other array helpers.",
+    "isBookmarked": true
+  },
+  {
+    "id": 13,
+    "title": "Understanding HTTP and HTTPS",
+    "description": "How web communication works and why HTTPS is important.",
+    "isBookmarked": false
+  },
+  {
+    "id": 14,
+    "title": "CSS Grid Layout",
+    "description": "Design complex layouts easily using CSS Grid.",
+    "isBookmarked": false
+  },
+  {
+    "id": 15,
+    "title": "Authentication in Web Apps",
+    "description": "JWT, sessions, and common authentication strategies.",
+    "isBookmarked": true
+  },
+  {
+    "id": 16,
+    "title": "Debugging JavaScript Efficiently",
+    "description": "Tips and tools to debug JavaScript applications faster.",
+    "isBookmarked": false
+  },
+  {
+    "id": 17,
+    "title": "Clean Code Principles",
+    "description": "Writing readable, maintainable, and scalable code.",
+    "isBookmarked": false
+  },
+  {
+    "id": 18,
+    "title": "Introduction to Web Accessibility",
+    "description": "Making web applications usable for everyone.",
+    "isBookmarked": false
+  },
+  {
+    "id": 19,
+    "title": "Using useEffect Correctly",
+    "description": "Common pitfalls and best practices for the useEffect hook.",
+    "isBookmarked": true
+  },
+  {
+    "id": 20,
+    "title": "Version Control with Git",
+    "description": "Essential Git commands and workflows for developers.",
+    "isBookmarked": false
+  },
+  {
+    "id": 21,
+    "title": "Error Handling in JavaScript",
+    "description": "Try/catch, custom errors, and error boundaries in React.",
+    "isBookmarked": false
+  },
+  {
+    "id": 22,
+    "title": "Responsive Design Basics",
+    "description": "Building layouts that work across devices and screen sizes.",
+    "isBookmarked": false
+  },
+  {
+    "id": 23,
+    "title": "Frontend System Design",
+    "description": "Architecting scalable and maintainable frontend applications.",
+    "isBookmarked": true
+  }
+]

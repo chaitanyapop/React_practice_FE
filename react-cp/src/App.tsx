@@ -31,6 +31,8 @@ import QuizApp from "./features/Quiz-app/QuizApp";
 import Sortable from "./features/Sortable-list/Sortable";
 import SocialShare from "./features/Social-share/SocialShare";
 import TodoPage from "./features/Todo-timer/TodoPage";
+import Pagination from "./components/Pagination";
+import Bookmark from "./features/BookmarkPagination/Bookmark";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -55,7 +57,7 @@ function App() {
       {/* <Sidebar /> */}
       {/*.......................Medium problems.................. */}
       {/* <TrafficLight />
-      <Kanban />
+      
       <WordCounter />
       <JsonValidator /> */}
       {/* <CinemaHall /> */}
@@ -66,7 +68,9 @@ function App() {
       {/* <QuizApp /> */}
       {/* <Sortable /> */}
       {/* <SocialShare /> */}
-      <TodoPage />
+      {/* <TodoPage /> */}
+      {/* <Kanban /> */}
+      <Bookmark />
     </div>
   );
 }

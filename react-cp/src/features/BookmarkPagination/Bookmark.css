@@ -1,0 +1,24 @@
+.root-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.article-container {
+  border: 2px solid grey;
+  width: 40%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.article-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bookmark-check-box {
+  display: flex;
+  align-items: center;
+}
+.bookmark-text {
+  margin: 0;
+}
